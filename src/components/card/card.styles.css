@@ -13,6 +13,13 @@
   transition: transform 0.25s ease-out;
 }
 
+.monster-img {
+  width: 90%;
+  max-width: 180px;
+  height: auto;
+  margin: 0 auto;
+}
+
 .card-container:hover {
   transform: scale(1.05);
 }
