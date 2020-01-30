@@ -26,4 +26,48 @@
 
 .monster-email {
   margin-bottom: auto;
+  font-size: 20px;
+  margin: 5px auto;
+}
+
+h2,
+.monster-email {
+  font-family: "Nanum Pen Script", cursive;
+}
+h2 {
+  margin: 10px auto;
+  font-size: 40px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .card-list {
+    grid-template-columns: 1fr;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 600px) {
+  .card-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .card-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .card-list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .card-list {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }
